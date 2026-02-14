@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Himbaza Nshuti Edisthon | Software Engineering Student</title>
+  <title>Himbaza Nshuti Edisthon | Software Engineer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
@@ -17,6 +17,7 @@
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#certificates">Certificates</a></li>
@@ -29,16 +30,18 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section id="home" class="hero">
     <div class="container hero-content">
-      <img src="/images/WhatsApp Image 2024-12-25 at 22.10.00_68bca2d7.jpg" alt="Himbaza Nshuti Edisthon" class="profile-img"/>
+      <img src="/images/WhatsApp Image 2024-12-25 at 22.10.00_68bca2d7.jpg" class="profile-img"/>
       <h1>Himbaza Nshuti Edisthon</h1>
-      <p>Software Engineering Student @AUCA | Java Developer</p>
+      <p>Software Engineering Student @AUCA | A2SV Trainee | iOS & Backend Developer</p>
+
       <div class="contact-info">
         <a href="mailto:edisthonshuti14@gmail.com">edisthonshuti14@gmail.com</a>
         <a href="tel:+250785444043">+250 785 444 043</a>
       </div>
+
       <a href="Himbaza-Nshuti-Edisthon-CV.pdf" download class="btn-cv">
         Download CV
       </a>
@@ -49,7 +52,12 @@
   <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
-      <p>Passionate Software Engineering student at Adventist University of Central Africa (AUCA). Strong foundation in Java, database management, and web technologies. Served as Java Programming Course Assistant, helping peers master programming concepts. Always eager to learn, build, and contribute to meaningful tech projects in Rwanda and beyond.</p>
+      <p>
+        Software Engineering student at AUCA and trainee at A2SV (Africa to Silicon Valley).
+        I enjoy building real-world software solutions across mobile, backend, and database systems.
+        I have experience with Java Spring Boot, Android development, SwiftUI, and FHIR-based
+        healthcare interoperability systems.
+      </p>
     </div>
   </section>
 
@@ -58,34 +66,71 @@
     <div class="container">
       <h2>Skills</h2>
       <div class="skills-grid">
+
         <div class="skill-category">
           <h3>Technical Skills</h3>
           <ul>
             <li>Java</li>
-            <li>C Programming</li>
-            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>Swift / SwiftUI</li>
+            <li>Spring Boot</li>
+            <li>Android (Java)</li>
+            <li>FHIR Integration</li>
             <li>MySQL & PL/SQL</li>
-            <li>Database Management</li>
-            <li>Software Testing & QA</li>
-            <li>Computer Maintenance</li>
-            <li>MS Office</li>
-            <li>Swift Programming</li>
-            <li>Git</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Git & GitHub</li>
           </ul>
         </div>
+
         <div class="skill-category">
           <h3>Professional Skills</h3>
           <ul>
-            <li>Report Writing & Presentations</li>
-            <li>Leadership & Teamwork</li>
-            <li>Time Management</li>
-            <li>Cross-Functional Collaboration</li>
-            <li>Strategic Thinking</li>
             <li>Problem Solving</li>
-            
+            <li>Algorithms & Data Structures</li>
+            <li>Technical Presentations</li>
+            <li>Team Collaboration</li>
+            <li>System Design Thinking</li>
           </ul>
         </div>
+
       </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="job">
+        <h3>NatalCareConnect (FHIR Maternal Health App)</h3>
+        <p>
+          Android healthcare tracking system supporting ANC-PNC workflows using FHIR standards.
+          Implements Patient, Observation, Encounter, Appointment, and CarePlan resources
+          with offline data sync and provider alerts.
+        </p>
+        <p><strong>Tech:</strong> Android (Java), HAPI FHIR, Retrofit, Firebase</p>
+      </div>
+
+      <div class="job">
+        <h3>LocalCart — iOS Marketplace App</h3>
+        <p>
+          SwiftUI marketplace application connecting local sellers and buyers.
+          Includes authentication, product listing, search, cart management,
+          and Firebase backend integration.
+        </p>
+        <p><strong>Tech:</strong> SwiftUI, Firebase, Cloud Firestore</p>
+      </div>
+
+      <div class="job">
+        <h3>AeroFleetHub</h3>
+        <p>
+          Fleet management system with CRUD operations, entity relationships using JPA,
+          and role-based authentication.
+        </p>
+        <p><strong>Tech:</strong> Java, Spring Boot, MySQL</p>
+      </div>
+
     </div>
   </section>
 
@@ -93,28 +138,17 @@
   <section id="experience" class="section">
     <div class="container">
       <h2>Experience</h2>
+
+      <div class="job">
+        <h3>A2SV Trainee</h3>
+        <p>Algorithms, Data Structures, and Problem Solving in Python</p>
+      </div>
+
       <div class="job">
         <h3>Java Programming Course Assistant</h3>
-        <p class="company">Adventist University of Central Africa (AUCA) | June 2025</p>
-        <ul>
-          <li>Assisted in delivering academic content during a 1-day intensive Java course</li>
-          <li>Collaborated with lead lecturer to boost student engagement</li>
-          <li>Prepared materials and delivered clear explanations on complex topics</li>
-          <li>Proactively helped struggling students with tailored guidance</li>
-        </ul>
+        <p>Adventist University of Central Africa (AUCA)</p>
       </div>
-    </div>
-  </section>
 
-  <!-- Education -->
-  <section id="education" class="section">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="edu">
-        <h3>Bachelor of Information Technology (Software Engineering)</h3>
-        <p>Adventist University of Central Africa (AUCA) | 2023 – Present</p>
-        <p class="courses">Relevant Coursework: Java Programming, PL/SQL, Computer Networks, Operating Systems, Database Management, Software Project Management, Linux</p>
-      </div>
     </div>
   </section>
 
@@ -123,9 +157,9 @@
     <div class="container">
       <h2>Certificates</h2>
       <ul class="certs">
-        <li>Frontend Development Basics – UpSkills Hub (2025)</li>
-        <li>Advanced Network Operations Certificate (1.0 & 2.0) – Internet Learning Society (2024)</li>
-        <li>Peace and Love Proclaimers (PLP) Member – PLP Rwanda (2022)</li>
+        <li>Apple Certified iOS Developer</li>
+        <li>Frontend Development Basics – UpSkills Hub</li>
+        <li>Advanced Network Operations – Internet Learning Society</li>
       </ul>
     </div>
   </section>
@@ -134,18 +168,18 @@
   <section id="contact" class="section contact-section">
     <div class="container">
       <h2>Get In Touch</h2>
-      <p>Always open to internships, collaborations, or just talking about tech!</p>
+      <p>Always open to internships, collaborations, or opportunities.</p>
+
       <div class="social-links">
-        <a>
         <a href="https://www.linkedin.com/in/himbaza-nshuti-edisthon-10a953262/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/Edisthon" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/Hir2wa" target="_blank"><i class="fab fa-github"></i></a>
         <a href="mailto:edisthonshuti14@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Himbaza Nshuti Edisthon</p>
+    <p>© 2026 Himbaza Nshuti Edisthon</p>
   </footer>
 
   <script src="script.js"></script>
