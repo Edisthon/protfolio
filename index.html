@@ -158,30 +158,30 @@
   <section id="experience" class="section">
     <div class="container">
       <h2 data-i18n="experience-title">Experience</h2>
-      <div class="job">
-        <h3 data-i18n="exp-a2sv-title">A2SV Trainee</h3>
-        <p data-i18n="exp-a2sv-desc">Algorithms, Data Structures, and Problem Solving in Python</p>
-      </div>
-      <div class="job">
-        <h3 data-i18n="exp-auca-title">Java Programming Course Assistant</h3>
-        <p data-i18n="exp-auca-desc">Adventist University of Central Africa (AUCA)</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Honors & Awards -->
-  <section id="awards" class="section">
-    <div class="container">
-      <h2 data-i18n="awards-title">Honors & Awards</h2>
-      <div class="awards-grid">
-        <div class="award-card">
-          <h3 data-i18n="award-hackathon-title">A2SV Hackathon Finalist</h3>
-          <p data-i18n="award-hackathon-desc">Recognized for innovative problem-solving and technical execution.</p>
-        </div>
-        <div class="award-card">
-          <h3 data-i18n="award-deanslist-title">Dean's List - AUCA</h3>
-          <p data-i18n="award-deanslist-desc">Academic excellence in Software Engineering studies.</p>
-        </div>
+      <div class="experience-grid">
+        <article class="experience-card">
+          <div class="experience-card-header">
+            <h3 data-i18n="exp-a2sv-title">A2SV Trainee</h3>
+            <span class="experience-tag">On Site</span>
+          </div>
+          <p class="experience-org">Africa to Silicon Valley (A2SV)</p>
+          <p data-i18n="exp-a2sv-desc">Algorithms, Data Structures, and Problem Solving in Python</p>
+          <ul class="experience-points">
+            <li>Solved algorithmic challenges consistently and improved coding interview readiness.</li>
+            <li>Strengthened Python implementation speed and clean problem decomposition skills.</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <div class="experience-card-header">
+            <h3 data-i18n="exp-auca-title">Java Programming Course Assistant</h3>
+            <span class="experience-tag">On Site</span>
+          </div>
+          <p data-i18n="exp-auca-desc" class="experience-org">Adventist University of Central Africa (AUCA)</p>
+          <ul class="experience-points">
+            <li>Supported students with Java fundamentals, debugging, and OOP concepts in lab sessions.</li>
+            <li>Helped improve assignment quality through practical code review feedback.</li>
+          </ul>
+        </article>
       </div>
     </div>
   </section>
@@ -224,7 +224,12 @@
   <footer>
     <p>© 2026 Himbaza Nshuti Edisthon</p>
     <div class="visit-counter">
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fedisthon.github.io&count_bg=%2335530E&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"/>
+      <p class="visit-title" data-i18n="visit-title">Total Visits</p>
+      <div class="visit-number-wrap" aria-live="polite">
+        <i class="fas fa-users"></i>
+        <strong id="visit-count">--</strong>
+      </div>
+      <p class="visit-note" id="visit-note" data-i18n="visit-note">Live page view count</p>
     </div>
   </footer>
 
