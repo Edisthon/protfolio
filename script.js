@@ -27,7 +27,6 @@ const translations = {
     "exp-a2sv-desc": "Algorithms, Data Structures, and Problem Solving in Python",
     "exp-auca-title": "Java Programming Course Assistant",
     "exp-auca-desc": "Adventist University of Central Africa (AUCA)",
-    "gallery-title": "Photo Gallery",
     "contact-title": "Get In Touch",
     "contact-text": "Always open to internships, collaborations, or opportunities.",
     "form-name": "Your Name",
@@ -72,7 +71,6 @@ const translations = {
     "award-hackathon-desc": "Reconnu pour la résolution innovante de problèmes et l'exécution technique.",
     "award-deanslist-title": "Liste du Doyen - AUCA",
     "award-deanslist-desc": "Excellence académique dans les études de génie logiciel.",
-    "gallery-title": "Galerie Photos",
     "form-name": "Votre Nom",
     "form-email": "Votre Email",
     "form-message": "Votre Message",
@@ -115,7 +113,6 @@ const translations = {
     "award-hackathon-desc": "Nashimiwe gukemura ibibazo mu buryo bushya no gushyira mu bikorwa ikoranabuhanga.",
     "award-deanslist-title": "Dean's List - AUCA",
     "award-deanslist-desc": "Inyandiko y'indashyikirwa mu masomo y'ubwubatsi bw'indangurushusho.",
-    "gallery-title": "Amafoto",
     "form-name": "Amazina",
     "form-email": "Email",
     "form-message": "Ubutumwa",
@@ -152,28 +149,6 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
   });
 });
 
-// Lightbox Logic
-const lightbox = document.createElement('div');
-lightbox.id = 'lightbox';
-document.body.appendChild(lightbox);
-
-const galleryImages = document.querySelectorAll('.gallery-item img');
-galleryImages.forEach(image => {
-  image.addEventListener('click', e => {
-    lightbox.classList.add('active');
-    const img = document.createElement('img');
-    img.src = image.src;
-    while (lightbox.firstChild) {
-      lightbox.removeChild(lightbox.firstChild);
-    }
-    lightbox.appendChild(img);
-  });
-});
-
-lightbox.addEventListener('click', e => {
-  if (e.target !== e.currentTarget) return;
-  lightbox.classList.remove('active');
-});
 
 // Mobile Menu Toggle
 const menuBtn = document.querySelector('.menu-btn');
